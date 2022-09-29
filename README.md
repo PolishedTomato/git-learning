@@ -1,8 +1,9 @@
  git-learning
 
 Two ways to initialize git repo
+
 1, create a repo in git.com and use git clone <http url> in the command line
-git will create a new folder in currently directory ( recommanded)
+it will create a new folder in currently directory ( recommanded)
 
 2, create a remote repo in local then connect to github exising repo
 	1, git init()
@@ -17,3 +18,9 @@ password:
 
 The Username is the same, but the password need to be personal access code(PAC)
 which could be set up in setting->developer setting-> access code
+
+Way to delete remove:
+git remote remove <remote name>
+
+Check remotes:
+git remote
