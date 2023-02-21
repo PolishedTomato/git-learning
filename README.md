@@ -19,7 +19,7 @@ password:
 The Username is the same, but the password need to be personal access code(PAC)
 which could be set up in setting->developer setting-> access code
 
-Way to delete remove:
+Way to delete remote:
 git remote remove <remote name>
 
 Check remotes:
